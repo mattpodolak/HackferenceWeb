@@ -111,13 +111,19 @@ section{
 * Background Colors
 ================================================*/
 .bg-texture{
-    background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+    /*background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
     background: transparent -o-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
     background: transparent -moz-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
     background: transparent radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+*/
+    background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent -o-radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent -moz-radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent radial-gradient(circle farthest-side at right bottom, #eb731d 5%, #e7296c 25%, #ff7f08 80%, #c2185b 98%) repeat scroll 0% 0%;
+
 }
 .bg-texture-collage{
-    background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
+   / background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
         linear-gradient(-45deg, #d81b60 67%, transparent 33%),
         linear-gradient(-45deg, #ffb300 100%, transparent 67%);
     background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
@@ -134,7 +140,7 @@ section{
     background-color: #FAFAFA;
 }
 .bg-primary{
-    background-color: #d81b60 !important;
+    background-color: #ff7f08 !important;
 }
 .bg-footer{
     background-color: #171717;
@@ -304,5 +310,5 @@ Pricing tables & lists
 ::selection {
     color: #fff;
     text-shadow: none;
-    background: #d81b60;
+    background: #ff7f08;
 }
