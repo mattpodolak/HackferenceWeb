@@ -16,7 +16,7 @@ def emailSubmit():
     emailSend(input)
     print(input)
     #add email to database here
-    return render_template('index.html')
+    return render_template('email-confirm.html', email_add = input)
 
 #return render_template('index.html', key_1 = str(keys[0]), key_2 = str(keys[1]), key_3 = str(keys[2]), p_1 = str(summs[0]), p_2 = str(summs[1]), p_3 = str(summs[2]))
 
