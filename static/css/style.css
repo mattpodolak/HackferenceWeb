@@ -123,15 +123,15 @@ section{
 
 }
 .bg-texture-collage{
-   / background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #d81b60 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
-    background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #d81b60 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
-    background:linear-gradient(-45deg, #ec407a 33%, transparent 0%),
-        linear-gradient(-45deg, #e91e63 67%, transparent 33%),
-        linear-gradient(-45deg, #ec407a 100%, transparent 67%);
+   /background:-webkit-linear-gradient(-45deg, #ef9c21 33%, transparent 0%),
+        linear-gradient(-45deg, #da8010 67%, transparent 33%),
+        linear-gradient(-45deg, #ef9c21 100%, transparent 67%);
+    background:-moz-linear-gradient(-45deg, #ef9c21 33%, transparent 0%),
+        linear-gradient(-45deg, #da8010 67%, transparent 33%),
+        linear-gradient(-45deg, #ef9c21 100%, transparent 67%);
+    background: linear-gradient(-45deg, #ef9c21 33%, transparent 0%),
+        linear-gradient(-45deg, #da8010 67%, transparent 33%),
+        linear-gradient(-45deg, #ef9c21 100%, transparent 67%);
 }
 .bg-alt {
     background-color: #fff;
@@ -161,10 +161,10 @@ section{
     color: #fff;
 }
 .text-primary {
-    color: #d81b60 !important;
+    color: #e78b15 !important;
 }
 .text-primary-light{
-    color: #ff80ab;
+    color: #ffaa80;
 }
 
 /*===============================================
@@ -205,8 +205,8 @@ section{
     color: #ff4081;
 }
 .btn-primary{
-    background-color: #ff4081 !important;
-    border-color: #ff4081 !important;
+    background-color: #fd8b3a !important;
+    border-color: #fd8b3a !important;
 }
 .btn-primary:hover, .btn-primary:focus{
     color: #fff !important;
